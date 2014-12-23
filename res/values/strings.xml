@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tebakgambar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_paham">PahamActivity</string>
+    <string name="title_activity_jam">JamActivity</string>
+    <string name="title_activity_golok">GolokActivity</string>
+    <string name="title_activity_gadis">GadisActivity</string>
+    <string name="title_activity_beban">BebanActivity</string>
+    <string name="title_activity_bau">BauActivity</string>
+    <string name="title_activity_alas">AlasActivity</string>
+    <string name="title_activity_pemimpin">PemimpinActivity</string>
+    <string name="title_activity_akal">AkalActivity</string>
+    <string name="title_activity_selesai">SelesaiActivity</string>
+    <string name="title_activity_tua">TuaActivity</string>
+
+</resources>

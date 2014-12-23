@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nicoricky.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PahamActivity"
+            android:label="@string/title_activity_paham" >
+        </activity>
+        <activity
+            android:name=".JamActivity"
+            android:label="@string/title_activity_jam" >
+        </activity>
+        <activity
+            android:name=".GolokActivity"
+            android:label="@string/title_activity_golok" >
+        </activity>
+        <activity
+            android:name=".GadisActivity"
+            android:label="@string/title_activity_gadis" >
+        </activity>
+        <activity
+            android:name=".BebanActivity"
+            android:label="@string/title_activity_beban" >
+        </activity>
+        <activity
+            android:name=".BauActivity"
+            android:label="@string/title_activity_bau" >
+        </activity>
+        <activity
+            android:name=".AlasActivity"
+            android:label="@string/title_activity_alas" >
+        </activity>
+        <activity
+            android:name=".PemimpinActivity"
+            android:label="@string/title_activity_pemimpin" >
+        </activity>
+        <activity
+            android:name=".AkalActivity"
+            android:label="@string/title_activity_akal" >
+        </activity>
+        <activity
+            android:name=".SelesaiActivity"
+            android:label="@string/title_activity_selesai" >
+        </activity>
+        <activity
+            android:name=".TuaActivity"
+            android:label="@string/title_activity_tua" >
+        </activity>
+    </application>
+
+</manifest>
